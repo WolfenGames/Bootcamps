@@ -59,7 +59,7 @@ static void     make_hexs(unsigned char *line, size_t curline, size_t size)
     }
 }
 
-void            ft_print_memory(const void *addr, size_t size)
+void            *ft_print_memory(const void *addr, size_t size)
 {
     size_t          curline;
     unsigned char   *tmp;
