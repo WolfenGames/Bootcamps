@@ -6,7 +6,7 @@
 /*   By: jwolf <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/24 15:20:03 by jwolf             #+#    #+#             */
-/*   Updated: 2018/04/24 15:41:51 by jwolf            ###   ########.fr       */
+/*   Updated: 2018/04/30 02:41:29 by jwolf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,7 +89,7 @@ int     main(void)
     char    *string;
 
     string = (char *)malloc(sizeof(string) * 128);
-    string = "Hello James!, Look at what I did!";
+    string = "Rest in peperoni";
     ft_print_memory(string, 128);
 
     return (0);
